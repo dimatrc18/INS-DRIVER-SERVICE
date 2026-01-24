@@ -1,0 +1,7 @@
+{
+  "name": "Milan Luxury Transfer - 2026 Winter Games Edition",
+  "description": "Premium chauffeur services for Milan and the 2026 Winter Olympics, featuring executive transfers to ski resorts, major events, and private tours.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
