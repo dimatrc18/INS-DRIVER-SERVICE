@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "title1": "Executive Chauffeur Service",
+    "titleTo": "to",
+    "bookYourRide": "Book Your Ride",
+    "browseFleet": "Browse Our Fleet",
+    "destinations": [
+      "The European Quarter",
+      "The Diamond District",
+      "Bruges",
+      "Spa-Francorchamps",
+      "Knokke-Heist",
+      "Tomorrowland",
+      "Paris CDG"
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "cityToCity": "City-to-City Transfers",
+    "cityToCityDesc": "Bespoke chauffeur service for cross-border luxury transfers across the Benelux Union and Northern France. Brussels to Bruges, Antwerp, Amsterdam, Paris. Executive mobility with diplomatic-grade discretion.",
+    "airportTransfers": "Airport Transfers",
+    "airportTransfersDesc": "Premium airport transfer service from Brussels Airport (BRU), Charleroi (CRL), and Antwerp (ANR). Real-time flight tracking, meet & greet, luxury Mercedes-Benz fleet.",
+    "hourlyDisposal": "By-the-Hour Disposal",
+    "hourlyDisposalDesc": "Hourly chauffeur service in Brussels for EU Summits, corporate meetings, and diplomatic engagements. Flexible luxury car hire with protocol-trained driver."
+  },
+  "about": {
+    "title": "Discretion, Punctuality & Bespoke Mobility",
+    "subtitle": "Our reputation is built on providing rides that are dependable, discreet, and tailored to the highest diplomatic standards.",
+    "yearsExp": "Years of Experience",
+    "chauffeurs": "Professional Chauffeurs",
+    "customers": "Satisfied Customers",
+    "vehicles": "Vehicles in Fleet",
+    "hospitalityTitle": "European Protocol. Belgian Precision.",
+    "hospitalityP1": "As Brussels' premier",
+    "privateChauffeur": "Private Chauffeur Service",
+    "weDefine": "we define luxury travel through our exclusive",
+    "mercedesFleet": "Mercedes-Benz Fleet",
+    "whetherYou": "Whether you require a seamless",
+    "airportTransfer": "Airport Transfer",
+    "fromMalpensa": "from Brussels Airport or Charleroi, or an executive ride for",
+    "fashionWeek": "EU Summit Arrivals",
+    "ourDrivers": "our protocol-trained chauffeurs ensure absolute punctuality and discretion.",
+    "beyondCity": "Beyond city transfers, we curate bespoke",
+    "privateTours": "Private Tours",
+    "toNorthern": "to Belgium's most stunning destinations. Enjoy a cultural day in",
+    "serravalle": "Historic Bruges",
+    "wineIn": "a diamond district tour in",
+    "franciacorta": "Antwerp",
+    "orBreathtaking": "or a breathtaking journey along the Belgian coastline.",
+    "popularTransfers": "Popular Luxury Transfers",
+    "milanToMalpensa": "Brussels to Airport (BRU)",
+    "milanToComо": "Brussels to Bruges",
+    "milanToStMoritz": "Brussels to Antwerp",
+    "milanToCortina": "Brussels to Amsterdam",
+    "linateToCentre": "Charleroi to City Centre",
+    "milanToVenice": "Brussels to Paris"
+  },
+  "events": {
+    "title": "Trusted for Major Events",
+    "subtitle": "We provide exclusive mobility solutions for attendees and VIP participants across Belgium",
+    "disclaimer": "Independent luxury transport provider. Event names used for reference only."
+  },
+  "fleet": {
+    "title": "The Fleet",
+    "subtitle": "First Class on Wheels — LEZ Compliant",
+    "needMore": "Need more than one car?",
+    "upTo": "Up to {{count}} Pax"
+  },
+  "seoBlock": {
+    "title": "Serving Brussels & the Benelux Union"
+  },
+  "seo": {
+    "title": "Brussels Luxury Transfer | Executive Chauffeur Service Belgium",
+    "description": "Official luxury transfer service for Brussels and the Benelux Union. Executive S-Class, EQS, and V-Class chauffeur services for airport transfers, EU Quarter, and major Belgian events."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "title": "Terms of Service",
+  "lastUpdated": "Last Update: October 2025",
+  "backToHome": "Return to Home",
+  "intro": "These Terms of Service govern your use of the services provided by",
+  "companyName": "Milano Transfers",
+  "introEnd": ". By booking a service, you agree to these terms.",
+  "seo": {
+    "title": "Terms of Service",
+    "description": "These Terms of Service govern your use of the services provided by Milan Luxury Transfer. By booking a service, you agree to these terms."
+  },
+  "section1Title": "Booking & Confirmation",
+  "section1Intro": "All bookings are subject to availability and confirmation.",
+  "section1Items": [
+    "Bookings must be made at least 24 hours in advance.",
+    "A confirmation email will be sent upon acceptance.",
+    "We reserve the right to decline any booking."
+  ],
+  "section2Title": "Cancellations & Refunds",
+  "section2Intro": "Our cancellation policy is as follows:",
+  "section2Items": [
+    "Free cancellation up to 24 hours before pickup.",
+    "50% charge for cancellations within 12-24 hours.",
+    "100% charge for cancellations within 12 hours."
+  ],
+  "section2End": "Refunds are processed within 5-7 business days.",
+  "section3Title": "Payment Terms",
+  "section3Text": "Payments can be made via credit card or bank transfer. Full payment or a deposit may be required to secure the booking.",
+  "section4Title": "Passenger Conduct",
+  "section4Intro": "Passengers are expected to behave respectfully.",
+  "section4Items": [
+    "No smoking in vehicles.",
+    "Seatbelts must be worn at all times.",
+    "Damage to the vehicle will be charged to the client."
+  ],
+  "section4End": "The driver has the right to refuse service to unruly passengers.",
+  "section5Title": "Liability",
+  "section5Text": "We are not liable for delays caused by traffic, weather, or other force majeure events. Our liability is limited to the cost of the transfer.",
+  "section6Title": "Luggage",
+  "section6Text": "Passengers are responsible for their luggage. Please inform us of excessive luggage at the time of booking.",
+  "section7Title": "Changes to Terms",
+  "section7Intro": "We reserve the right to modify these terms.",
+  "section7Items": [
+    "Changes will be posted on this page.",
+    "Continued use of service implies acceptance."
+  ],
+  "section7End": "Please review periodically.",
+  "section8Title": "Governing Law",
+  "section8Text": "These terms are governed by the laws of Italy.",
+  "section9Title": "Contact Us",
+  "section9Intro": "For any questions regarding these terms, please contact us:",
+  "emailLabel": "Email",
+  "phoneLabel": "Phone"
+}

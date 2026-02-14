@@ -1,0 +1,39 @@
+{
+  "questions": [
+    {
+      "question": "Where do I meet my driver at Brussels Airport (BRU)?",
+      "answer": "Your chauffeur will be waiting in the Arrivals Hall with a digital name board, typically at the designated \"Limousine\" meeting point near the Java Coffee House. You'll receive your chauffeur's photo, mobile number, and car plate 24 hours before pickup."
+    },
+    {
+      "question": "Is your fleet compliant with the Brussels LEZ?",
+      "answer": "Yes. As of 2026, our entire fleet meets or exceeds the latest Low Emission Zone standards. We prioritize Mercedes EQS (Electric) and Euro-6 Hybrid vehicles for full city access. Zero-emission vehicles are available upon request."
+    },
+    {
+      "question": "Do you provide transfers to/from Brussels-Midi station?",
+      "answer": "Absolutely. We specialize in \"Train-to-Door\" service for Eurostar and Thalys passengers, providing luggage assistance directly from the platform exit. Your chauffeur will meet you at the designated pickup zone."
+    },
+    {
+      "question": "Can we book a transfer to Paris or Amsterdam?",
+      "answer": "Yes, we are fully licensed for cross-border travel within the Schengen area. We provide fixed-rate, long-distance luxury transfers to Paris (CDG & city center), Amsterdam (Schiphol & city center), and Luxembourg. All tolls and fuel included."
+    },
+    {
+      "question": "What happens if my flight to Charleroi (CRL) is delayed?",
+      "answer": "We track all flights in real-time. Whether your flight is 20 minutes or 3 hours late, your chauffeur will be there upon landing — no extra charges for the first hour of waiting. Our Live Flight Tracking system monitors every inbound flight."
+    },
+    {
+      "question": "Are your drivers trained in diplomatic protocol?",
+      "answer": "Yes. Our chauffeurs are experienced in handling high-level corporate and diplomatic clientele, ensuring absolute discretion and adherence to security protocols. Many of our drivers regularly serve EU officials, NATO personnel, and diplomatic delegations."
+    },
+    {
+      "question": "How does payment work?",
+      "answer": "Deposit required upfront (card, bank transfer, or cash), balance due at trip start. We accept: Credit cards (Visa/Mastercard/Amex), Cash (EUR), Bank transfer (Bancontact), Apple Pay, and Google Pay. Corporate accounts with monthly invoicing available."
+    },
+    {
+      "question": "What languages do your drivers speak?",
+      "answer": "All chauffeurs are fluent in English, French, and Dutch (Flemish). Many also speak German, Russian, Arabic, and additional EU languages. Request your preferred language when booking — no extra charge."
+    }
+  ],
+  "title": "Frequently Asked Questions",
+  "subtitle": "Everything you need to know about our luxury chauffeur service in Belgium",
+  "stillQuestions": "Still have questions?"
+}

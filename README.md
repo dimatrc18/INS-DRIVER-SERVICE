@@ -17,3 +17,10 @@ Premium Chauffeur Service based in Milan, Italy. Specialized in high-end airport
 ## Deployment
 This project is configured for GitHub Pages.
 Run `npm run deploy` to publish the site to GitHub.
+
+## Refactoring Details
+### Ski Resort Architecture Update
+- **Centralized Data**: All ski resort data (text, images, SEO tags) is now stored in `constants.tsx`.
+- **Dynamic Routing**: The application now uses a single dynamic route `/destinations/:slug` associated with the `SkiResortLandingTemplate` component.
+- **SEO Optimization**: `react-helmet-async` manages the `<head>` elements dynamically based on the current resort, ensuring unique titles and meta descriptions for each page.
+- **Maintainability**: New resorts can be added simply by updating the `SKI_RESORTS` array in `constants.tsx`, without creating new files or routes.

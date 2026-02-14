@@ -1,0 +1,70 @@
+{
+  "seo": {
+    "title": "Book Private Chauffeur Milan | Airport Transfer Quote",
+    "description": "Book your private chauffeur in Milan. Executive airport transfers, hourly disposal, and city-to-city trips. V-Class and S-Class fleet available.",
+    "successTitle": "Booking Received | Milan Luxury Transfer",
+    "successDesc": "Thank you for your inquiry. A concierge manager will review your details and send a personalized quote shortly."
+  },
+  "heading": "Secure Your Transfer",
+  "subtitle": "For immediate assistance or special requirements (such as multi-vehicle convoys for the Winter Games), please contact our 24/7 concierge at",
+  "fastResponse": "Fast Response",
+  "fastResponseDesc": "Quotes sent within 120 minutes",
+  "flexibleCancel": "Flexible Cancellation",
+  "flexibleCancelDesc": "Free cancellation up to 24h before",
+  "reservationReceived": "Reservation Received",
+  "thankYou": "Thank you for your inquiry. A concierge manager will review your details and send a personalized quote within 2 hours.",
+  "submitAnother": "Submit another request",
+  "form": {
+    "fullName": "Full Name",
+    "mobile": "Mobile (Incl. Code)",
+    "email": "Email Address",
+    "serviceType": "Service Type",
+    "pickupLocation": "Pick-up Location",
+    "dropoffLocation": "Drop-off Location",
+    "searchHotel": "Search Hotel, Airport or Address...",
+    "searchDestination": "Search Destination...",
+    "enterDestCity": "Enter Destination City (e.g., Lugano, Turin)...",
+    "selectAccuracy": "* Select from suggestions for accuracy",
+    "date": "Date",
+    "time": "Time",
+    "selectTime": "Select Time",
+    "hour": "Hour",
+    "minute": "Minute",
+    "confirm": "Confirm",
+    "passengers": "Passengers",
+    "luggage": "Luggage",
+    "vehicle": "Vehicle",
+    "flightNumber": "Flight Number (Recommended)",
+    "flightPlaceholder": "e.g. EZY1234",
+    "flightHelp": "We use this for real-time flight tracking",
+    "duration": "Duration",
+    "selectDuration": "Select Duration...",
+    "describeTrip": "Describe Your Trip *",
+    "messageOptional": "Message (Optional)",
+    "describePlaceholder": "Please describe your request (e.g., Wedding at Villa d'Este, 3-day roadshow, specific itinerary)...",
+    "messagePlaceholder": "Flight details, child seats, or special instructions...",
+    "bookViaWhatsapp": "Book via WhatsApp"
+  },
+  "serviceTypes": {
+    "airportTransfer": "Airport Transfer",
+    "cityToCity": "City-to-City Transfer",
+    "hourly": "Hourly / As Directed",
+    "privateExcursion": "Private Excursion",
+    "custom": "Custom / Other"
+  },
+  "durations": {
+    "4h": "4 Hours",
+    "6h": "6 Hours",
+    "8h": "8 Hours (Full Day)",
+    "10h": "10 Hours",
+    "12h": "12 Hours"
+  },
+  "validation": {
+    "selectDuration": "Please select a duration for Hourly service.",
+    "describeRequest": "Please describe your request in the message field.",
+    "selectDestination": "Please select a destination city.",
+    "submissionFailed": "Submission failed: ",
+    "errorOccurred": "An error occurred while submitting the booking. Please try again or contact us directly."
+  },
+  "whatsappMessage": "Hello, I would like to book a transfer service with the details below. Are you available and how much will it cost?"
+}

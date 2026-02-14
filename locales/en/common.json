@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "airportTransfers": "Airport Transfers",
+    "skiResorts": "Destinations",
+    "majorEvents": "Major Events",
+    "privateTours": "Private Tours",
+    "bookNow": "Book Now",
+    "home": "Home"
+  },
+  "footer": {
+    "ourServices": "Our Services",
+    "topDestinations": "Top Destinations",
+    "contactUs": "Contact Us",
+    "airportTransfersMilan": "Airport Transfers Brussels",
+    "luxuryFleet": "Luxury Fleet",
+    "lakeComoPT": "Bruges Private Tours",
+    "veniceDayTrip": "Amsterdam Day Trip",
+    "milanTo": "Brussels to {{name}}",
+    "inquireNow": "Inquire Now",
+    "copyright": "© 2026 Brussels Luxury Transfer Service. All Rights Reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "licensedNCC": "Licensed LVC Operator — LEZ Compliant"
+  },
+  "cta": {
+    "bookNow": "Book Now",
+    "requestQuote": "Request Quote",
+    "learnMore": "Learn More",
+    "viewFleet": "View Fleet",
+    "bookConvoy": "Book a Convoy",
+    "whatsapp": "WhatsApp"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "From booking to arrival, we've streamlined every detail for a seamless experience",
+    "step1Title": "Request Your Quote",
+    "step1Desc": "Share your itinerary via WhatsApp, phone, or our booking form. Receive a fixed-price quote within 30 minutes.",
+    "step2Title": "Confirm & Relax",
+    "step2Desc": "Once confirmed, your dedicated chauffeur details arrive 24 hours before pickup. No surge pricing, no surprises.",
+    "step3Title": "Meet Your Chauffeur",
+    "step3Desc": "Your driver greets you by name with a discreet digital name board. Luggage assistance included.",
+    "step4Title": "Enjoy the Ride",
+    "step4Desc": "Complimentary Godiva pralines, bottled water, phone chargers, and Wi-Fi in all vehicles. Adjust climate and music to your preference."
+  },
+  "journeyIncludes": {
+    "title": "Every Journey Includes",
+    "subtitle": "Premium inclusions as standard, because luxury should never be an add-on",
+    "flightTracking": "Flight Tracking",
+    "flightTrackingDesc": "Up to 60 min wait time",
+    "meetGreet": "Meet & Greet",
+    "meetGreetDesc": "Digital name board at arrivals",
+    "luggageAssistance": "Luggage Assistance",
+    "luggageAssistanceDesc": "Door-to-door handling",
+    "multilingualDrivers": "Multilingual Drivers",
+    "multilingualDriversDesc": "English, French, Dutch (Flemish)",
+    "complimentaryAmenities": "Complimentary Amenities",
+    "complimentaryAmenitiesDesc": "Godiva pralines, water, chargers, Wi-Fi",
+    "flexibleCancellation": "Flexible Cancellation",
+    "flexibleCancellationDesc": "Free up to 24h before",
+    "fixedPricing": "Fixed Pricing",
+    "fixedPricingDesc": "No hidden fees or surge pricing",
+    "customRequests": "Custom Requests",
+    "customRequestsDesc": "Child seat, champagne, EU Quarter priority routes"
+  },
+  "popularDestinations": {
+    "title": "Popular Destinations",
+    "subtitle": "Discover Belgium's most sought-after locations and cross-border hubs with our premium chauffeur service",
+    "notLimited": "Not limited to these destinations.",
+    "notLimitedDesc": "We provide exclusive chauffeur services throughout Belgium, the Benelux Union, and neighboring countries including France, Germany, and the United Kingdom. Contact us for custom routes and special requests.",
+    "lakeComo": "Bruges",
+    "lakeComoDesc": "Medieval charm & UNESCO heritage canals",
+    "venice": "Antwerp",
+    "veniceDesc": "Diamond District & fashion capital",
+    "stMoritz": "Amsterdam",
+    "stMoritzDesc": "Dutch capital & canal culture",
+    "cortina": "Luxembourg City",
+    "cortinaDesc": "European institutions & grand duchy charm",
+    "courchevel": "Paris",
+    "courchevelDesc": "Cross-border luxury to the City of Light",
+    "courmayeur": "Ghent",
+    "courmayeurDesc": "Flemish art & medieval architecture",
+    "franciacorta": "Knokke-Heist",
+    "franciacortaDesc": "Belgium's most exclusive coastline",
+    "milanCity": "Brussels City Tours",
+    "milanCityDesc": "EU Quarter & Art Nouveau landmarks"
+  },
+  "heroSocialProof": {
+    "happyCustomers": "2000+ happy customers"
+  },
+  "switchLang": {
+    "en": "EN",
+    "it": "FR"
+  },
+  "reviews": {
+    "title": "Feedback and Reviews",
+    "verifiedBooking": "Verified Booking"
+  }
+}

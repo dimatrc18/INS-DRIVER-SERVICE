@@ -1,13 +1,13 @@
-
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import { useLocalePath } from '../hooks/useLocalePath';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [showServices, setShowServices] = useState(false);
   const location = useLocation();
+  const localePath = useLocalePath();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,113 +20,86 @@ const Navbar: React.FC = () => {
   // Close menu on navigation
   useEffect(() => {
     setIsOpen(false);
-    setShowServices(false);
   }, [location]);
 
-  const navLinks = [
-    { name: 'Home', path: '/' },
-    { name: 'Milano Cortina 2026', path: '/milano-cortina-2026', highlight: true },
-  ];
-
   const servicesLinks = [
-    { name: 'Airport Transfers', path: '/services/airport-transfers' },
-    { name: 'Ski Resorts', path: '/services/ski-resorts' },
-    { name: 'Major Events', path: '/services/major-events' },
-    { name: 'Private Tours', path: '/services/private-tours' },
+    { name: "Airport Transfers", path: '/services/airport-transfers' },
+    { name: "Destinations", path: '/services/ski-resorts' }, // Maps to SkiResortTransfers acting as Destinations
+    { name: "Major Events", path: '/services/major-events' },
+    { name: "Private Tours", path: '/services/private-tours' },
   ];
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-black/90 backdrop-blur-md py-4' : 'bg-transparent py-6'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/95 backdrop-blur-md py-4 border-b border-zinc-100 shadow-sm' : 'bg-white/90 py-6'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center relative gap-4">
           {/* Logo */}
-          <Link to="/" className="flex flex-col">
-            <span className="text-xl md:text-2xl font-serif font-bold tracking-widest text-white leading-none">MILAN LUXURY</span>
-            <span className="text-[10px] md:text-xs tracking-[0.3em] text-gold uppercase mt-1">Transfer Service</span>
+          <Link to={localePath('/')} className="flex-shrink-0 z-50">
+            <span className={`text-xl md:text-2xl font-bold tracking-widest leading-none transition-colors whitespace-nowrap text-zinc-900`} style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+              INS DRIVER SERVICE
+            </span>
           </Link>
 
-          {/* Desktop Nav */}
-          <div className="hidden md:flex items-center space-x-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.path}
-                to={link.path}
-                className={`text-sm tracking-widest uppercase hover:text-gold transition-colors ${
-                  link.highlight ? 'text-gold font-semibold' : 'text-white'
-                }`}
-              >
-                {link.name}
-              </Link>
-            ))}
+          {/* Desktop Navigation */}
+          <div className="hidden lg:flex items-center gap-1 bg-zinc-100/80 backdrop-blur-md p-1.5 rounded-full border border-white/50 shadow-sm">
+            {servicesLinks.map((link) => {
+              const isActive = location.pathname.includes(link.path);
+              return (
+                <Link
+                  key={link.path}
+                  to={localePath(link.path)}
+                  className={`px-4 py-2 rounded-full text-[10px] font-bold uppercase tracking-widest transition-all text-center whitespace-nowrap ${isActive
+                    ? 'bg-zinc-900 text-white shadow-md'
+                    : 'text-zinc-500 hover:text-zinc-900 hover:bg-white/50'
+                    }`}
+                >
+                  {link.name}
+                </Link>
+              );
+            })}
+          </div>
 
-            {/* Services Dropdown */}
-            <div 
-              className="relative group"
-              onMouseEnter={() => setShowServices(true)}
-              onMouseLeave={() => setShowServices(false)}
-            >
-              <button className="flex items-center space-x-1 text-sm tracking-widest uppercase text-white hover:text-gold transition-colors">
-                <span>Services</span>
-                <ChevronDown size={14} className={`transition-transform duration-200 ${showServices ? 'rotate-180' : ''}`} />
-              </button>
-              
-              <div className={`absolute top-full right-0 w-64 bg-black border border-gold/20 shadow-2xl transition-all duration-300 ${showServices ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible translate-y-2'}`}>
-                <div className="p-4 space-y-4">
-                  {servicesLinks.map((service) => (
-                    <Link
-                      key={service.path}
-                      to={service.path}
-                      className="block text-xs uppercase tracking-widest text-gray-300 hover:text-gold transition-colors"
-                    >
-                      {service.name}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            </div>
-
+          {/* Right Side: Book Button & Mobile Toggle */}
+          <div className="flex items-center gap-3 relative z-50">
             <Link
-              to="/booking"
-              className="bg-gold text-black px-6 py-2 rounded-none text-sm font-bold uppercase tracking-widest hover:bg-white transition-all duration-300"
+              to={localePath('/booking')}
+              className="hidden lg:block bg-zinc-900 text-white px-8 py-3 rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-gold hover:text-zinc-900 transition-all duration-300 shadow-lg whitespace-nowrap"
             >
               Book Now
             </Link>
-          </div>
 
-          {/* Mobile Menu Toggle */}
-          <div className="md:hidden">
-            <button onClick={() => setIsOpen(!isOpen)} className="text-white">
-              {isOpen ? <X size={28} /> : <Menu size={28} />}
-            </button>
+            <div className="lg:hidden">
+              <button onClick={() => setIsOpen(!isOpen)} className="text-zinc-900 p-2">
+                {isOpen ? <X size={28} /> : <Menu size={28} />}
+              </button>
+            </div>
           </div>
         </div>
       </div>
 
       {/* Mobile Nav */}
-      <div className={`md:hidden absolute top-full left-0 w-full bg-black border-b border-gold/20 transition-all duration-300 ${isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
+      <div className={`lg:hidden absolute top-full left-0 w-full bg-white border-b border-zinc-100 shadow-xl transition-all duration-300 ${isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
         <div className="px-4 py-8 space-y-6 flex flex-col items-center">
-          {navLinks.map((link) => (
-            <Link
-              key={link.path}
-              to={link.path}
-              className={`text-lg uppercase tracking-widest ${link.highlight ? 'text-gold' : 'text-white'}`}
-            >
-              {link.name}
-            </Link>
-          ))}
-          <div className="w-full h-px bg-gold/20 my-2"></div>
+          <Link
+            to={localePath('/')}
+            className="text-lg uppercase tracking-widest font-bold text-zinc-900"
+          >
+            Home
+          </Link>
+          <div className="w-full h-px bg-zinc-100 my-2"></div>
           {servicesLinks.map((service) => (
             <Link
               key={service.path}
-              to={service.path}
-              className="text-sm uppercase tracking-widest text-gray-400"
+              to={localePath(service.path)}
+              className="text-sm uppercase tracking-widest text-zinc-500 font-bold hover:text-gold"
             >
               {service.name}
             </Link>
           ))}
+          <div className="w-full h-px bg-zinc-100 my-2"></div>
           <Link
-            to="/booking"
-            className="w-full bg-gold text-black text-center py-4 rounded-none text-sm font-bold uppercase tracking-widest"
+            to={localePath('/booking')}
+            className="w-full bg-zinc-900 text-white text-center py-4 rounded-full text-xs font-bold uppercase tracking-widest shadow-xl"
           >
             Book Now
           </Link>

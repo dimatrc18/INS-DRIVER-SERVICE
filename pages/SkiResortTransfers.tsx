@@ -1,109 +1,56 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
-  Snowflake,
-  Mountain,
-  ChevronRight,
-  ShieldCheck,
+  MapPin,
+  ChevronDown,
   Clock,
-  Users,
-  Briefcase,
-  CheckCircle2
+  ArrowRight
 } from 'lucide-react';
+import { useLocalePath } from '../hooks/useLocalePath';
+import { SKI_RESORTS } from '../constants'; // This now holds Belgian destinations
+import HeroSocialProof from '../components/HeroSocialProof';
+import ReviewsMarquee from '../components/ReviewsMarquee';
+import SEO from '../components/SEO';
 
 // --- IMPORT LOCAL IMAGES ---
-// Using Cortina as the main hero because it's scenic, or swap with a specific "Hero" image if you made one
-import skiHeroImg from '../images/V_Class_In_Mountains_2.png';
-
-// Destination Images
-import cortinaImg from '../images/Ski_Resorts_Cortina.png';
-import stMoritzImg from '../images/Ski_Resorts_St_Moritz.png';
-import courmayeurImg from '../images/Ski_Resorts_Courmayeur.png';
-import livignoImg from '../images/Ski_Resorts_Livigno.png';
-import cerviniaImg from '../images/Ski_Resorts_Cervinia.png';
-import courchevelImg from '../images/Ski_Resorts_Courchevel.png';
-
-// Fleet Images
-import vClassWinterImg from '../images/V_Class_In_Mountains_Cropped.png';
-import sClassWinterImg from '../images/S_Class_In_Mountains_Cropped.png';
-import HeroSocialProof from '../components/HeroSocialProof';
-import MinimalTestimonial from '../components/MinimalTestimonial';
-
+// Using a generic luxury car image for the hero
+const destinationHeroImg = import.meta.env.BASE_URL + 'images/V_Class_On_Event.webp';
 
 const SkiResortTransfers: React.FC = () => {
-  // Removed AI generation logic
-
-  const destinations = [
-    {
-      name: 'Cortina d\'Ampezzo',
-      subtitle: 'The 2026 Olympic Hub',
-      time: '~4.5 hours',
-      image: cortinaImg,
-      path: '/destinations/cortina'
-    },
-    {
-      name: 'St. Moritz',
-      subtitle: 'Swiss Luxury',
-      time: '~3 hours',
-      image: stMoritzImg,
-      path: '/destinations/st-moritz'
-    },
-    {
-      name: 'Courmayeur',
-      subtitle: 'Mont Blanc',
-      time: '~2.5 hours',
-      image: courmayeurImg,
-      path: '/destinations/courmayeur'
-    },
-    {
-      name: 'Livigno',
-      subtitle: 'Duty-Free Skiing',
-      time: '~4 hours',
-      image: livignoImg,
-      path: '/destinations/livigno'
-    },
-    {
-      name: 'Cervinia / Zermatt',
-      subtitle: 'The Matterhorn',
-      time: '~2.5 hours',
-      image: cerviniaImg,
-      path: '/destinations/cervinia'
-    },
-    {
-      name: 'Courchevel',
-      subtitle: 'French Alps - Long Distance',
-      time: '~4.5 hours',
-      image: courchevelImg,
-      path: '/destinations/courchevel'
-    }
-  ];
+  const localePath = useLocalePath();
 
   return (
-    <div className="bg-black text-white selection:bg-gold selection:text-black">
+    <div className="bg-white text-zinc-900 selection:bg-gold selection:text-zinc-900">
+      <SEO
+        title="Luxury City Transfers Belgium | Bruges, Antwerp, Paris & Beyond"
+        description="Private chauffeur services from Brussels to major European destinations. Visit Bruges, Antwerp, Ghent, Paris, and Amsterdam in style."
+        canonical="/services/ski-resorts"
+      />
       {/* 1. Hero Section */}
       <section className="relative h-[85vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src={skiHeroImg}
-            alt="Luxury Ski Transfer in Alps"
-            className="w-full h-full object-cover opacity-50 grayscale-[0.2]"
+            src={destinationHeroImg}
+            alt="Luxury Transfer to Belgian Cities"
+            className="w-full h-full object-cover opacity-80"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-transparent"></div>
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-
           <div className="max-w-3xl mt-[70px]">
-            <h1 className="text-4xl md:text-7xl font-sans font-bold leading-tight mb-6 tracking-tight">
-              Luxury Ski Transfers from <span className="text-gold">Milan to the Alps.</span>
+            <h1 className="text-4xl md:text-7xl font-sans font-bold leading-tight mb-6 tracking-tight text-zinc-900">
+              Explore the Heart <br />
+              <span className="text-zinc-400 italic">of Europe</span>
             </h1>
-            <p className="text-xl md:text-2xl text-zinc-300 mb-10 font-light leading-relaxed">
-              Safe, comfortable, and winter-equipped transfers to Cortina, St. Moritz, Courchevel, and beyond.
+            <p className="text-xl md:text-2xl text-zinc-600 mb-10 font-medium leading-relaxed">
+              From the canals of Bruges to the fashion streets of Antwerp and Paris. Your journey begins with our executive chauffeur service.
             </p>
-            <Link to="/booking" className="inline-block bg-gold text-black px-12 py-5 font-bold uppercase tracking-widest hover:bg-white transition-all duration-300 shadow-2xl">
-              Get a Ski Transfer Quote
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center sm:justify-start">
+              <Link to={localePath('/booking')} className="inline-block bg-zinc-900 text-white px-10 py-4 rounded-full font-bold tracking-wide hover:bg-gold hover:text-zinc-900 transition-all duration-300 shadow-lg text-center">
+                Book Your Journey
+              </Link>
+            </div>
             <div className="mt-8">
               <HeroSocialProof />
             </div>
@@ -111,172 +58,117 @@ const SkiResortTransfers: React.FC = () => {
         </div>
       </section>
 
-      {/* 2. The "Winter Ready" Guarantee */}
-      <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-[#050505] border-y border-white/5">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-          <div className="flex flex-col items-center text-center">
-            <div className="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center text-gold mb-6 border border-gold/20">
-              <Snowflake size={32} />
-            </div>
-            <h3 className="text-lg font-bold uppercase tracking-widest mb-3">Premium Winter Tires</h3>
-            <p className="text-zinc-500 text-sm">All vehicles are equipped with top-tier winter tires and carry onboard snow chains for absolute safety.</p>
-          </div>
-          <div className="flex flex-col items-center text-center">
-            <div className="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center text-gold mb-6 border border-gold/20">
-              <Mountain size={32} />
-            </div>
-            <h3 className="text-lg font-bold uppercase tracking-widest mb-3">Ski & Gear Racks</h3>
-            <p className="text-zinc-500 text-sm">Professional roof racks or internal V-Class configurations provide ample space for skis and snowboards.</p>
-          </div>
-          <div className="flex flex-col items-center text-center">
-            <div className="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center text-gold mb-6 border border-gold/20">
-              <ShieldCheck size={32} />
-            </div>
-            <h3 className="text-lg font-bold uppercase tracking-widest mb-3">4MATIC Capability</h3>
-            <p className="text-zinc-500 text-sm">Our 4-Wheel Drive fleet handles steep mountain passes and icy roads with executive stability.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* 3. Top Ski Destinations Grid */}
+      {/* 2. Top Destinations Grid */}
       <section className="py-32 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
-          <h2 className="text-4xl md:text-5xl font-sans font-bold uppercase tracking-tight mb-4">Top Ski Destinations</h2>
+          <h2 className="text-4xl md:text-5xl font-sans font-bold tracking-tight mb-4 text-zinc-900 uppercase">Premium Destinations</h2>
           <div className="w-24 h-1 bg-gold mx-auto"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {destinations.map((dest, i) => (
-            <div key={i} className="group relative overflow-hidden bg-zinc-900 flex flex-col border border-white/5 h-full">
-              <div className="h-64 overflow-hidden shrink-0">
-                <img
-                  src={dest.image}
-                  alt={dest.name}
-                  className="w-full h-full object-cover grayscale-[0.2] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
-                />
-              </div>
-              <div className="p-8 flex flex-col flex-grow">
-                <h3 className="text-2xl font-bold mb-1">Transfer Milan to {dest.name}</h3>
-                <p className="text-gold uppercase tracking-widest text-[10px] font-bold mb-4">{dest.subtitle}</p>
-                <div className="flex items-center gap-2 text-zinc-500 text-xs mb-8">
-                  <Clock size={14} />
-                  <span>Est. Drive Time: {dest.time}</span>
+        {/* Belgian Cities */}
+        <div className="mb-24">
+          <h3 className="text-2xl md:text-3xl font-sans font-bold mb-10 text-zinc-900 border-l-4 border-gold pl-4">The Heart of Belgium</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {SKI_RESORTS.filter(dest => !['France', 'Netherlands', 'Luxembourg'].includes(dest.region)).map((dest, i) => (
+              <div key={dest.slug} className="group relative overflow-hidden bg-white flex flex-col border border-zinc-100 hover:border-gold/30 hover:shadow-2xl transition-all duration-500 rounded-[2rem]">
+                <div className="h-64 overflow-hidden shrink-0">
+                  <img
+                    src={dest.heroImage}
+                    alt={dest.name}
+                    className="w-full h-full object-cover grayscale-[0.2] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                  />
                 </div>
-                <Link to={dest.path} className="block text-center border border-gold text-gold py-4 font-bold uppercase tracking-widest hover:bg-gold hover:text-black transition-all mt-auto">
-                  Book Transfer
-                </Link>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* 4. The Fleet (Winter Configuration) */}
-      <section className="py-32 bg-white text-black">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-20">
-            <h2 className="text-4xl font-sans font-bold uppercase tracking-tighter mb-4">The Fleet: Winter Config</h2>
-            <div className="w-24 h-1 bg-gold mx-auto"></div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            {/* V-Class */}
-            <div className="group border border-black/5 p-10 bg-zinc-50 hover:shadow-2xl transition-all">
-              <h3 className="text-3xl font-bold mb-4">Mercedes-Benz V-Class</h3>
-              <p className="text-gold font-bold uppercase tracking-widest text-xs mb-8">The Skier’s Choice</p>
-              <div className="space-y-4 mb-10">
-                <div className="flex items-center gap-4 text-zinc-600">
-                  <Users size={20} className="text-gold" />
-                  <span>Fits up to 7 passengers</span>
-                </div>
-                <div className="flex items-center gap-4 text-zinc-600">
-                  <Briefcase size={20} className="text-gold" />
-                  <span>Holds 7+ ski bags & heavy luggage</span>
-                </div>
-                <div className="flex items-center gap-4 text-zinc-600">
-                  <CheckCircle2 size={20} className="text-gold" />
-                  <span>Conference seating for meetings on the move</span>
+                <div className="p-8 flex flex-col flex-grow">
+                  <h3 className="text-2xl font-bold mb-1 text-zinc-900">{dest.name}</h3>
+                  <p className="text-gold font-bold uppercase tracking-widest text-[10px] mb-4">{dest.region}</p>
+                  <p className="text-sm text-zinc-500 mb-6 line-clamp-2">
+                    {/* Accessing string property directly since we removed translations / strictly typed constants */}
+                    {(dest.sellingPoint as any)?.en || dest.sellingPoint}
+                  </p>
+                  <div className="flex items-center gap-2 text-zinc-400 text-xs mb-8 font-medium">
+                    <Clock size={14} className="text-gold" />
+                    <span>{dest.time} from Brussels</span>
+                  </div>
+                  <Link to={localePath(`/destinations/${dest.slug}`)} className="block text-center bg-zinc-900 text-white py-4 rounded-full font-bold tracking-wide hover:bg-gold hover:text-zinc-900 transition-all mt-auto shadow-md">
+                    Explore {dest.name}
+                  </Link>
                 </div>
               </div>
-              <img src={vClassWinterImg} alt="Mercedes V-Class" className="w-full h-[270px] object-cover object-center mb-8 grayscale hover:grayscale-0 transition-all duration-700" />
-            </div>
-
-            {/* S-Class */}
-            <div className="group border border-black/5 p-10 bg-zinc-50 hover:shadow-2xl transition-all">
-              <h3 className="text-3xl font-bold mb-4">Mercedes-Benz S-Class</h3>
-              <p className="text-gold font-bold uppercase tracking-widest text-xs mb-8">VIP Mountain Arrival</p>
-              <div className="space-y-4 mb-10">
-                <div className="flex items-center gap-4 text-zinc-600">
-                  <Users size={20} className="text-gold" />
-                  <span>Fits up to 2-3 passengers</span>
-                </div>
-                <div className="flex items-center gap-4 text-zinc-600">
-                  <Briefcase size={20} className="text-gold" />
-                  <span>Fits 2-3 suitcases (No ski bags inside)</span>
-                </div>
-                <div className="flex items-center gap-4 text-zinc-600">
-                  <CheckCircle2 size={20} className="text-gold" />
-                  <span>Maximum comfort and alpine status</span>
-                </div>
-              </div>
-              <img src={sClassWinterImg} alt="Mercedes S-Class" className="w-full h-[270px] object-cover object-center mb-8 grayscale hover:grayscale-0 transition-all duration-700" />
-            </div>
+            ))}
           </div>
         </div>
+
+        {/* International Connections */}
+        <div>
+          <h3 className="text-2xl md:text-3xl font-sans font-bold mb-10 text-zinc-900 border-l-4 border-gold pl-4">Cross-Border Excellence</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {SKI_RESORTS.filter(dest => ['France', 'Netherlands', 'Luxembourg'].includes(dest.region)).map((dest, i) => (
+              <div key={dest.slug} className="group relative overflow-hidden bg-white flex flex-col border border-zinc-100 hover:border-gold/30 hover:shadow-2xl transition-all duration-500 rounded-[2rem]">
+                <div className="h-64 overflow-hidden shrink-0">
+                  <img
+                    src={dest.heroImage}
+                    alt={dest.name}
+                    className="w-full h-full object-cover grayscale-[0.2] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                  />
+                </div>
+                <div className="p-8 flex flex-col flex-grow">
+                  <h3 className="text-2xl font-bold mb-1 text-zinc-900">{dest.name}</h3>
+                  <p className="text-gold font-bold uppercase tracking-widest text-[10px] mb-4">{dest.region}</p>
+                  <p className="text-sm text-zinc-500 mb-6 line-clamp-2">
+                    {/* Accessing string property directly since we removed translations / strictly typed constants */}
+                    {(dest.sellingPoint as any)?.en || dest.sellingPoint}
+                  </p>
+                  <div className="flex items-center gap-2 text-zinc-400 text-xs mb-8 font-medium">
+                    <Clock size={14} className="text-gold" />
+                    <span>{dest.time} from Brussels</span>
+                  </div>
+                  <Link to={localePath(`/destinations/${dest.slug}`)} className="block text-center bg-zinc-900 text-white py-4 rounded-full font-bold tracking-wide hover:bg-gold hover:text-zinc-900 transition-all mt-auto shadow-md">
+                    Explore {dest.name}
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
       </section>
 
-      <MinimalTestimonial
-        quote="Navigating the mountain passes to St. Moritz was effortless. The V-Class handled the snow perfectly, and our ski gear was packed with care."
-        author="Hans G., Professional Skier"
-      />
+      <ReviewsMarquee />
 
-      {/* 6. FAQ Section */}
-      <section className="py-32 bg-[#0a0a0a]">
+      {/* 3. FAQ Section */}
+      <section className="py-32 bg-zinc-50/50">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl font-sans font-bold uppercase tracking-tight mb-16 text-center">Ski Transfer FAQ</h2>
-          <div className="space-y-12">
-            <div className="border-b border-white/5 pb-8">
-              <h4 className="text-gold font-bold mb-4">Do you charge extra for ski bags?</h4>
-              <p className="text-zinc-500 text-sm font-light">No, specialized equipment transport is included in our V-Class rates. We provide ample space for ski bags, snowboards, and heavy winter luggage at no additional cost.</p>
-            </div>
-            <div className="border-b border-white/5 pb-8">
-              <h4 className="text-gold font-bold mb-4">Do drivers know how to drive in snow?</h4>
-              <p className="text-zinc-500 text-sm font-light">Yes, all our chauffeurs are highly experienced mountain drivers trained specifically for winter conditions in the Alps and Dolomites.</p>
-            </div>
-            <div className="border-b border-white/5 pb-8">
-              <h4 className="text-gold font-bold mb-4">Can you pick up from Malpensa Airport?</h4>
-              <p className="text-zinc-500 text-sm font-light">Yes, we provide direct transfers from Malpensa (MXP), Linate (LIN), and Bergamo (BGY) directly to any ski resort in Italy, Switzerland, or France.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 5. SEO Content Block - Link Hub */}
-      <section className="py-24 bg-zinc-950 border-t border-white/5">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-2xl font-sans font-bold uppercase tracking-tight text-white mb-8">
-            Your Private Driver to the Alps & Dolomites
-          </h2>
-          <div className="text-zinc-500 font-light leading-relaxed text-sm md:text-base space-y-6">
-            <p>
-              Start your winter holiday with the ultimate comfort and safety. Navigating snowy mountain passes requires expertise and the right vehicle. Our fleet of 4x4 Mercedes V-Class vans ensures you reach your destination relaxed and ready to ski.
-            </p>
-            <p>
-              We offer direct connections to the most prestigious winter hubs. For the 2026 Winter Games, book our specialized <Link to="/destinations/cortina" className="text-gold underline decoration-gold/50 hover:decoration-gold transition-all font-medium">Transfer Milan to Cortina</Link>. If you prefer the Swiss luxury lifestyle, our <Link to="/destinations/st-moritz" className="text-gold underline decoration-gold/50 hover:decoration-gold transition-all font-medium">Milan to St. Moritz Chauffeur</Link> crosses the border seamlessly. We also provide fast access to the Mont Blanc region via our <Link to="/destinations/courmayeur" className="text-gold underline decoration-gold/50 hover:decoration-gold transition-all font-medium">Milan to Courmayeur Service</Link> and high-altitude trips to <Link to="/destinations/cervinia" className="text-gold underline decoration-gold/50 hover:decoration-gold transition-all font-medium">Cervinia & Matterhorn Ski Transfer</Link>.
-            </p>
-            <p>
-              For longer stays, choose our duty-free route with a <Link to="/destinations/livigno" className="text-gold underline decoration-gold/50 hover:decoration-gold transition-all font-medium">Milan to Livigno Private Ride</Link>, or travel across the French border with our exclusive <Link to="/destinations/courchevel" className="text-gold underline decoration-gold/50 hover:decoration-gold transition-all font-medium">Milan to Courchevel Long-Distance Transfer</Link>. All vehicles come equipped with winter tires and ample space for your ski equipment.
-            </p>
+          <h2 className="text-2xl md:text-4xl font-sans font-bold tracking-tight mb-16 text-center text-zinc-900 uppercase">Common Questions</h2>
+          <div className="space-y-4">
+            <details className="group bg-white rounded-xl shadow-sm border border-zinc-100 open:ring-1 open:ring-gold/20">
+              <summary className="list-none flex justify-between items-center p-6 cursor-pointer font-bold text-zinc-900 select-none">
+                Can you drive into city centers?
+                <ChevronDown size={16} className="text-zinc-400 group-open:rotate-180 transition-transform" />
+              </summary>
+              <div className="px-6 pb-6 text-zinc-500 text-sm leading-relaxed">
+                Yes, all our vehicles are Euro 6 LEZ (Low Emission Zone) compliant, allowing us to drop you off right at your hotel door in Brussels, Antwerp, Ghent, and Paris.
+              </div>
+            </details>
+            <details className="group bg-white rounded-xl shadow-sm border border-zinc-100 open:ring-1 open:ring-gold/20">
+              <summary className="list-none flex justify-between items-center p-6 cursor-pointer font-bold text-zinc-900 select-none">
+                Do you do return trips?
+                <ChevronDown size={16} className="text-zinc-400 group-open:rotate-180 transition-transform" />
+              </summary>
+              <div className="px-6 pb-6 text-zinc-500 text-sm leading-relaxed">
+                Absolutely. We can arrange wait-and-return services for day trips, or schedule a separate return transfer for longer stays.
+              </div>
+            </details>
           </div>
         </div>
       </section>
 
       {/* Final CTA */}
-      <section className="py-24 bg-gold text-black text-center relative overflow-hidden">
+      <section className="py-32 bg-zinc-900 text-white text-center relative rounded-[4rem] mx-4 mb-8 overflow-hidden">
+        <div className="absolute inset-0 bg-gold opacity-5"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl md:text-5xl font-sans font-bold uppercase tracking-tight mb-8">Ready for the Slopes?</h2>
-          <Link to="/booking" className="inline-block bg-black text-white px-12 py-5 font-bold uppercase tracking-widest hover:bg-zinc-800 transition-all shadow-xl">
-            Book Your Ski Transfer Now
+          <h2 className="text-3xl md:text-5xl font-sans font-bold tracking-tight mb-8">Ready to Discover Belgium?</h2>
+          <Link to={localePath('/booking')} className="inline-block bg-white text-zinc-900 px-12 py-4 rounded-full font-bold tracking-wide hover:bg-gold transition-all shadow-xl">
+            Get Your Quote
           </Link>
         </div>
       </section>

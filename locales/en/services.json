@@ -1,0 +1,492 @@
+{
+  "airport": {
+    "seoTitle": "Milan Airport Transfers | MXP Linate Bergamo Chauffeur Service",
+    "seoDesc": "Reliable and luxurious airport transfers from Milan Malpensa (MXP), Linate (LIN), and Bergamo (BGY). Professional chauffeur service for seamless arrivals and departures."
+  },
+  "airportPage": {
+    "hero": {
+      "titleLine1": "Milan Airport Transfers.",
+      "titleLine2": "Luxury Chauffeur Service.",
+      "desc": "Premium NCC chauffeur service from MXP, LIN, BGY to Milan center, Lake Como, St. Moritz, Cortina 2026. Meet & greet, flight tracking, 60-min wait time included.",
+      "ctaQuote": "Get Your Personalized Quote",
+      "ctaWhatsapp": "WhatsApp Quote"
+    },
+    "features": {
+      "tracking": {
+        "title": "Real-time Flight Tracking",
+        "desc": "We adjust to your schedule. Whether your flight is early or delayed, your chauffeur will be there exactly when you land."
+      },
+      "pricing": {
+        "title": "Fixed All-Inclusive Pricing",
+        "desc": "No meters, no surprises. Our rates include tolls, VAT, and wait time. Know exactly what you pay before you travel."
+      },
+      "chauffeurs": {
+        "title": "Professional Chauffeurs",
+        "desc": "English-speaking, suit-attired experts dedicated to your safety, comfort, and discretion throughout Northern Italy."
+      }
+    },
+    "airports": {
+      "mxp": {
+        "title": "Milan Malpensa (MXP) Private Transfer",
+        "features": [
+          "Terminal 1 International: VIP lounge coordination available",
+          "Terminal 2: Direct to Schengen arrivals",
+          "Most popular: MXP to Milan center, Lake Como, St. Moritz"
+        ]
+      },
+      "lin": {
+        "title": "Milan Linate (LIN) Executive Service",
+        "features": [
+          "City airport advantage: Duomo in 20 min",
+          "Private jet terminal access",
+          "Fashion district specialist"
+        ]
+      },
+      "bgy": {
+        "title": "Bergamo Orio al Serio (BGY) Regional Hub",
+        "features": [
+          "Ryanair + private jets",
+          "Gateway to Como/Garda/Alps",
+          "Corporate Fiera Milano transfers"
+        ]
+      }
+    },
+    "popularRoutes": {
+      "title": "Most Requested Milan Airport Transfers",
+      "getQuote": "Get Route Quote",
+      "routes": {
+        "mxp": {
+          "from": "Malpensa MXP →",
+          "dest1": "Milan City Center (Duomo/Porta Nuova)",
+          "dest2": "Lake Como (Bellagio/Varenna)",
+          "dest3": "St. Moritz Switzerland",
+          "dest4": "Milan Malpensa to Cortina 2026"
+        },
+        "lin": {
+          "from": "Linate LIN →",
+          "dest1": "Milan Duomo/Hotel Quadrilatero",
+          "dest2": "Milan Fashion District",
+          "dest3": "Bergamo Orio al Serio"
+        },
+        "bgy": {
+          "from": "Bergamo BGY →",
+          "dest1": "Milan Bergamo Airport to Como",
+          "dest2": "Bergamo to Garda Lake",
+          "dest3": "Corporate Bergamo to Milan Fiera"
+        }
+      }
+    },
+    "fleetOptions": {
+      "title": "Executive Fleet Options",
+      "subtitle": "Snow-ready & Luxury Equipped"
+    },
+    "dayService": {
+      "titleLine1": "Arrived in Milan...",
+      "titleLine2": "Now what?",
+      "desc": "Your journey doesn't have to end at the hotel. Maximize your time in Italy with our bespoke day services, where your chauffeur becomes your personal guide to the region's hidden gems.",
+      "viewTours": "View All Private Tours",
+      "shopping": {
+        "tag": "Hourly Service",
+        "title": "Fashion & Shopping",
+        "desc": "Standby chauffeur service for Quadrilatero della Moda. Store your bags and shop hands-free."
+      },
+      "lake": {
+        "tag": "Day Excursion",
+        "title": "Lake Como Escapes",
+        "desc": "A spontaneous afternoon trip to Bellagio. Experience the Italian lakes in total comfort."
+      }
+    },
+    "faq": {
+      "title": "Milan Airport Transfer FAQs",
+      "q1": "How long from Malpensa to Milan city center?",
+      "a1": "50 minutes door-to-door (vs 90+ min taxi/public transport). Traffic-optimized routes.",
+      "q2": "What if my flight from Malpensa is delayed?",
+      "a2": "We track live. 60 minutes complimentary wait time included. Driver adjusts automatically.",
+      "q3": "Do you meet me inside Malpensa arrivals?",
+      "a3": "Yes. Chauffeur waits at arrivals hall with your name sign. Luggage assistance included.",
+      "q4": "Linate to Duomo — how fast?",
+      "a4": "15-20 minutes. Fastest airport-to-fashion-district connection.",
+      "q5": "Can I book Bergamo to Lake Como same day?",
+      "a5": "Yes. 60-minute direct transfer. Perfect for regional flights + lake getaway.",
+      "q6": "Multiple passengers from airport?",
+      "a6": "V-Class fits 6 + luggage. S-Class for executives. Convoy for groups."
+    },
+    "seoText": {
+      "title": "Premium Airport Connections Milan",
+      "p1": "Begin your Italian journey with the elegance of our luxury airport transfers. Navigating international arrivals becomes effortless with our dedicated <Link>Milan Malpensa Car Service</Link>, designed to transition you seamlessly from the terminal to your final destination. For those landing closer to the city's heart, our <Link1>Linate Executive Transfer</Link1> offers the swiftest connection to Milan's fashion and business districts.",
+      "p2": "Beyond the city limits, we ensure flawless connectivity across Northern Italy. Experience the precision of our <Link>Bergamo Orio al Serio Chauffeur</Link> service, perfectly suited for both designated commercial flights and private aviation. Whether you require a direct <Link1>Malpensa to City Center Transfer</Link1> or a bespoke private chauffeur service for the duration of your stay, we guarantee punctuality, discretion, and superior comfort."
+    },
+    "ctaBottom": {
+      "title": "Ready for a Seamless Arrival?",
+      "subtitle": "Cancel free until 24h before. 85% fleet booked for Fashion Week Feb 2026.",
+      "ctaQuote": "Get Your Personalized Quote",
+      "ctaCall": "Call Airport Concierge"
+    },
+    "winterReadiness": "Winter readiness: Our entire fleet is equipped with Alpine tires and safety gear for transit across Northern Italy.",
+    "relatedResources": "Related Airport Resources:",
+    "mainHub": "Main Airport Hub",
+    "inquireNow": "Inquire Now"
+  },
+  "ski": {
+    "seoTitle": "Ski Resort Transfers Milan | Luxury Chauffeur to Alps",
+    "seoDesc": "Direct luxury transfers from Milan to top ski resorts like Cortina, St. Moritz, Courmayeur, and Livigno. Professional drivers and premium vehicles."
+  },
+  "skiPage": {
+    "hero": {
+      "titleLine1": "Luxury Ski Transfers.",
+      "titleLine2": "Milan to the Alps.",
+      "subtitle": "Safe, seamless, and stylish connections to Cortina, St. Moritz, and the Dolomites options.",
+      "cta": "Get a Ski Transfer Quote"
+    },
+    "winterGuarantee": {
+      "tires": {
+        "title": "Premium Winter Tires",
+        "description": "All vehicles are equipped with top-tier winter tires and carry onboard snow chains for absolute safety."
+      },
+      "racks": {
+        "title": "Ski & Gear Racks",
+        "description": "Professional roof racks or internal V-Class configurations provide ample space for skis and snowboards."
+      },
+      "capability": {
+        "title": "4MATIC Capability",
+        "description": "Our 4-Wheel Drive fleet handles steep mountain passes and icy roads with executive stability."
+      }
+    },
+    "destinations": {
+      "title": "Top Ski Destinations",
+      "bookBtn": "Book Transfer",
+      "estTime": "Est. Drive Time: {{time}}",
+      "cortina": {
+        "subtitle": "The 2026 Olympic Hub"
+      },
+      "stMoritz": {
+        "subtitle": "Swiss Luxury"
+      },
+      "courmayeur": {
+        "subtitle": "Mont Blanc"
+      },
+      "livigno": {
+        "subtitle": "Duty-Free Skiing"
+      },
+      "cervinia": {
+        "subtitle": "The Matterhorn"
+      },
+      "courchevel": {
+        "subtitle": "French Alps - Long Distance"
+      }
+    },
+    "fleetCards": {
+      "winterReady": "All vehicles equipped with winter tires & chains",
+      "sClass": {
+        "tag": "Couples & Solo",
+        "title": "Mercedes-Benz E/S Class",
+        "features": {
+          "passengers": "Max 2-3 Passengers",
+          "luggage": "2 Suitcases (No skis inside)",
+          "roofTax": "*Skis must be requested (Roof Tax)"
+        },
+        "button": "Book Sedan"
+      },
+      "vClass": {
+        "tag": "Groups & Families",
+        "badge": "Best for Ski Trips",
+        "title": "Mercedes-Benz V-Class",
+        "features": {
+          "passengers": "Max 7 Passengers",
+          "seats": "Heated Leather Seats"
+        },
+        "button": "Book V-Class"
+      }
+    },
+    "labels": {
+      "distance": "Distance",
+      "duration": "Duration",
+      "season": "Season",
+      "routeDescription": "Route Description",
+      "winterReadiness": "Winter Readiness"
+    },
+    "headings": {
+      "journey": "The Journey",
+      "transferTimes": "Transfer Times",
+      "dropOffPoints": "Premium Drop-off Points",
+      "premiumService": "Premium Ski Chauffeur Service"
+    },
+    "links": {
+      "viewAll": "View all Ski Transfers"
+    },
+    "buttons": {
+      "bookTransfer": "Book Transfer",
+      "getQuote": "Get a Quote Now"
+    },
+    "fleet": {
+      "title": "The Fleet: Winter Config",
+      "vClass": {
+        "title": "Mercedes-Benz V-Class",
+        "subtitle": "The Skier’s Choice",
+        "features": [
+          "Fits 7 passengers comfortably",
+          "Ample space for 7+ ski bags & luggage",
+          "Face-to-face seating configuration"
+        ]
+      },
+      "sClass": {
+        "title": "Mercedes-Benz S-Class",
+        "subtitle": "VIP Mountain Arrival",
+        "features": [
+          "Fits up to 3 passengers",
+          "Capacity for 2 large suitcases",
+          "First-class reclining rear seats"
+        ]
+      }
+    },
+    "faq": {
+      "title": "Ski Transfer FAQ",
+      "q1": "Do you charge extra for ski bags?",
+      "a1": "No, specialized equipment transport is included in our V-Class rates. We provide ample space for ski bags, snowboards, and heavy winter luggage at no additional cost.",
+      "q2": "Do drivers know how to drive in snow?",
+      "a2": "Yes, all our chauffeurs are highly experienced mountain drivers trained specifically for winter conditions in the Alps and Dolomites.",
+      "q3": "Can you pick up from Malpensa Airport?",
+      "a3": "Yes, we provide direct transfers from Malpensa (MXP), Linate (LIN), and Bergamo (BGY) directly to any ski resort in Italy, Switzerland, or France."
+    },
+    "seo": {
+      "title": "Your Private Driver to the Alps & Dolomites",
+      "p1": "Start your winter holiday with the ultimate comfort and safety. Navigating snowy mountain passes requires expertise and the right vehicle. Our fleet of 4x4 Mercedes V-Class vans ensures you reach your destination relaxed and ready to ski.",
+      "p2": "We offer direct connections to the most prestigious winter hubs. Experience the classic Italian Alps with our exclusive <Link>transfer to Cortina</Link>. If you prefer the Swiss luxury lifestyle, our <Link1>chauffeur service to St. Moritz</Link1> crosses the border seamlessly. We also provide fast access to the Mont Blanc region via our <Link2>Milan to Courmayeur service</Link2> and high-altitude trips to <Link3>Cervinia</Link3>.",
+      "p3": "For longer stays, choose our duty-free route with a <Link>private ride to Livigno</Link>, or travel across the French border with our exclusive <Link1>long-distance transfer to Courchevel</Link1>. All vehicles come equipped with winter tires and ample space for your ski equipment."
+    },
+    "ctaBottom": {
+      "title": "Ready for the Slopes?",
+      "arriveInStyle": "Arrive at {{name}} in Style",
+      "button": "Book Your Ski Transfer Now"
+    }
+  },
+  "events": {
+    "seoTitle": "Major Events Milan | Fashion Week, F1 Monza, Salone del Mobile Chauffeur",
+    "seoDesc": "VIP chauffeur services for Milan's major events, including Fashion Week, Formula 1 Monza, and Salone del Mobile. Arrive in style and on time."
+  },
+  "tours": {
+    "seoTitle": "Private Tours Milan Lake Como Venice | Luxury Chauffeur Excursions",
+    "seoDesc": "Bespoke private tours from Milan to Lake Como, Venice, Serravalle Outlet, and Franciacorta. Luxury Mercedes fleet with English-speaking chauffeurs."
+  },
+  "toursPage": {
+    "hero": {
+      "titleLine1": "Discover Northern Italy from",
+      "titleLine2": "the Comfort of a Private Mercedes.",
+      "subtitle": "Curated day trips to Venice, Lake Como, Serravalle Outlets, and Wine Regions. Your journey, your pace.",
+      "cta": "Book Private Driver"
+    },
+    "experiences": {
+      "title": "Curated Experiences",
+      "bookBtn": "Book {{tour}}",
+      "lakeComo": {
+        "title": "Lake Como Day Trip",
+        "duration": "8 Hours",
+        "desc": "The ultimate Italian postcard. Glide past Villa d’Este and George Clooney’s Villa Oleandra. We navigate the narrow lakeside roads so you can focus on the view. Includes stops in Como, Bellagio, and Varenna.",
+        "itinerary": {
+          "title": "Sample Itinerary",
+          "stop1": "Pick-up from Milan Hotel",
+          "stop2": "Como Historic Center & Funicular",
+          "stop3": "Ferry to Bellagio (Lunch & Shopping)",
+          "stop4": "Return Scenic Drive to Milan"
+        }
+      },
+      "venice": {
+        "title": "Venice Full Day Trip",
+        "duration": "12-14 Hours",
+        "desc": "Discover the floating city with a direct private transfer. Skip the crowded trains and arrive refreshed at Piazzale Roma, the gateway to the canals. Your driver waits while you explore landmarks like St. Mark's Basilica and the Rialto Bridge.",
+        "itinerary": {
+          "title": "Sample Itinerary",
+          "stop1": "Early Milan Pick-up",
+          "stop2": "Arrival at Piazzale Roma (Venice)",
+          "stop3": "6 Hours Free Time (Gondola, Landmarks)",
+          "stop4": "Evening Return to Milan"
+        }
+      },
+      "serravalle": {
+        "title": "Serravalle Designer Outlet",
+        "duration": "6-8 Hours",
+        "desc": "VIP shopping experience at Europe’s largest designer outlet. Shop 300+ luxury brands (Gucci, Prada, Saint Laurent) with up to 70% off. Your private V-Class serves as a secure mobile locker for your purchases.",
+        "keyBenefits": {
+          "title": "Key Benefits",
+          "benefit1": "Hands-free shopping (store bags in vehicle)",
+          "benefit2": "Avoid crowded shuttle buses",
+          "benefit3": "Flexible departure time"
+        }
+      },
+      "franciacorta": {
+        "title": "Franciacorta Wine Tour",
+        "duration": "8 Hours",
+        "desc": "Tasting at historic estates like Berlucchi or Bellavista with lunch in the vineyards. Experience the \"Champagne of Italy\" with a safe, comfortable return drive.",
+        "highlights": {
+          "title": "Tour Highlights",
+          "stop1": "Arrival in Franciacorta Region",
+          "stop2": "Premium Winery Tour & Tasting",
+          "stop3": "Gourmet Lunch with Vineyard View",
+          "stop4": "Return Transfer to Milan"
+        }
+      },
+      "milan": {
+        "title": "Milan City Highlights",
+        "duration": "4 Hours",
+        "desc": "See the Last Supper, Duomo, and Sforza Castle in half a day. Our drivers have ZTL access to drop you right at the entrance of every monument, bypassing the long walks.",
+        "circuit": {
+          "title": "City Circuit",
+          "stop1": "ZTL Access: Direct drop-off at Duomo",
+          "stop2": "Sforza Castle: Main entrance drop-off",
+          "stop3": "Santa Maria delle Grazie: Last Supper exterior",
+          "stop4": "Brera District: Optional shopping stop"
+        }
+      }
+    },
+    "whyChoose": {
+      "freedom": {
+        "title": "Complete Freedom",
+        "desc": "No strict bus schedules. Stay longer at lunch or leave early—the itinerary is entirely up to you and your guests."
+      },
+      "doorToDoor": {
+        "title": "Door-to-Door",
+        "desc": "We provide pick-up and drop-off directly at your hotel, apartment, or private villa for ultimate convenience."
+      },
+      "localKnowledge": {
+        "title": "Local Knowledge",
+        "desc": "Our chauffeurs are local experts who can recommend the best panoramic photo spots and hidden gems away from the crowds."
+      }
+    },
+    "fleet": {
+      "title": "The Touring Fleet",
+      "vClass": {
+        "subtitle": "The Panorama Choice",
+        "features": [
+          "High seating position for better panoramic views",
+          "Huge trunk for shopping bags or wine cases",
+          "Face-to-face seating for family conversation"
+        ]
+      },
+      "sClass": {
+        "subtitle": "The Comfort Choice",
+        "features": [
+          "Massage seats for long country drives",
+          "Air suspension for a cloud-like journey",
+          "Bespoke climate control for rear passengers"
+        ]
+      }
+    },
+    "seoText": {
+      "title": "Luxury Day Trips from Milan",
+      "p1": "Unlock the full splendour of Lombardy and beyond with our bespoke chauffeur experiences. Leave the logistics to us as you glide toward the stunning shores of the <Link>Lake Como Private Driver Service</Link>, absorbing the breathtaking Alpine vistas in the serene comfort of a Mercedes-Benz, far removed from the stress of schedules and crowds.",
+      "p2": "For those with a passion for high fashion, our <Link1>Serravalle Outlet Shopping Transfer</Link1> offers the perfect blend of efficiency and luxury, ensuring your haul from iconic brands like Gucci and Prada is transported in style. Alternatively, immerse yourself in the rich heritage of Italian viticulture with our <Link2>Franciacorta Wine Tour</Link2>, a journey into the heart of Italy's premier sparkling wine region.",
+      "p3": "Whether you desire an intimate exploration of the metropolis with a <Link>Milan City Sightseeing Chauffeur</Link> or wish to traverse the plains to the romantic canals of a <Link1>Milan to Venice Private Tour</Link1>, our professional drivers provide a seamless, elegant, and unforgettable travel experience."
+    },
+    "faq": {
+      "title": "Tour FAQ",
+      "q1": "Is the driver also a tour guide?",
+      "a1": "Our chauffeurs are local experts with extensive knowledge of the region, but they are not licensed historical guides. We can hire a professional licensed guide to accompany you upon request.",
+      "q2": "Is lunch included?",
+      "a2": "No, lunch is not included in the tour price. However, we are happy to recommend and reserve tables at exclusive restaurants along your route.",
+      "q3": "Can we customize the route?",
+      "a3": "Absolutely. Every tour is bespoke. You can adjust the itinerary as the day unfolds to spend more or less time at any location.",
+      "q4": "What happens if it rains?",
+      "a4": "The tour proceeds rain or shine. Our vehicles are climate-controlled and comfortable. In case of heavy rain, we can suggest indoor alternatives like museums, historic villas, or extended lunch stops.",
+      "q5": "Can we stop for photos whenever we want?",
+      "a5": "Yes, this is the main advantage of a private tour. Just ask your driver to pull over at any safe spot for panoramic photos. We know all the best viewpoints away from the crowds.",
+      "q6": "Are entrance tickets included?",
+      "a6": "No, entrance fees to villas, museums, or wine tastings are not included to give you flexibility. However, we can help reserve skip-the-line tickets for popular attractions like Villa del Balbianello or The Last Supper in advance."
+    },
+    "ctaBottom": {
+      "title": "Ready to Explore?",
+      "button": "Book Experience Now"
+    }
+  },
+  "eventsPage": {
+    "ctaHero": "Book Event Transport",
+    "whyDriver": "Why a Private Driver is Essential",
+    "statsTitle": "Event Service Stats",
+    "fleetFocus": "The Perfect Fleet Focus",
+    "primaryChoice": "Primary Choice",
+    "secondaryChoice": "Secondary Choice",
+    "bookVehicle": "Book This Vehicle",
+    "returnToEvents": "Return to Major Events",
+    "readyHighlights": "Ready for the Highlights?",
+    "hero": {
+      "titleLine1": "VIP Transport for Milan's",
+      "titleLine2": "Premier Events.",
+      "subtitle": "From runway shows to race circuits: arrive on time, in style, with absolute discretion.",
+      "cta": "Book Event Transport"
+    },
+    "eventHighlights": {
+      "title": "Event Highlights",
+      "learnMore": "Learn More",
+      "fashionWeek": {
+        "title": "Milan Fashion Week",
+        "date": "Feb & Sept",
+        "desc": "Hourly disposal for runway shows, showrooms, and exclusive after-parties."
+      },
+      "designWeek": {
+        "title": "Salone del Mobile",
+        "date": "April",
+        "desc": "Transfers between Rho Fiera and the vibrant Fuorisalone districts."
+      },
+      "monzaF1": {
+        "title": "Italian Grand Prix (Monza)",
+        "date": "September",
+        "desc": "VIP paddock drop-off access and skip-the-line routes to the circuit."
+      },
+      "sanSiro": {
+        "title": "San Siro Events",
+        "date": "Year-round",
+        "desc": "Champions League matches, international concerts, and mega events."
+      }
+    },
+    "whyMatters": {
+      "timing": {
+        "title": "Timing is Critical",
+        "desc": "We monitor traffic patterns and venue access points in real time to ensure you never miss a curtain-up or a kick-off."
+      },
+      "disposal": {
+        "title": "Hourly Disposal",
+        "desc": "The ultimate flexibility for high-paced days. Your driver remains on standby for multi-stop hotel-to-venue rotations."
+      },
+      "discretion": {
+        "title": "Absolute Discretion",
+        "desc": "Tinted windows, unmarked luxury vehicles, and professional chauffeurs trained in high-profile confidentiality."
+      }
+    },
+    "fleet": {
+      "title": "Event-Ready Fleet",
+      "sClass": {
+        "subtitle": "Executive Galas & VIP Arrivals",
+        "features": [
+          "The gold standard for red carpet events",
+          "Maximum privacy for celebrity and VIP clients"
+        ]
+      },
+      "vClass": {
+        "subtitle": "Entourages & Crew Logistics",
+        "features": [
+          "Ideal for PR teams and large group transfers",
+          "Conference seating for mid-transit briefings"
+        ]
+      }
+    },
+    "seoText": {
+      "title": "Milan Event Chauffeur Services: Precision & Prestige",
+      "p1": "Milan stands as the global epicenter of high fashion, cutting-edge design, and premier motorsport. Navigating this dynamic metropolis during peak events requires more than just a driver—it demands a strategic partner. Whether you are attending the adrenaline-fueled <Link>Italian Grand Prix at Monza</Link> or the exclusive runway shows of <Link1>Milan Fashion Week</Link1>, our chauffeur services guarantee punctuality, discretion, and absolute comfort.",
+      "p2": "Our fleet of immaculately maintained Mercedes-Benz vehicles serves as your mobile command center. During <Link>Salone del Mobile</Link>, we provide seamless connections between the sprawling Rho Fiera exhibition grounds and the vibrant Fuorisalone installations in the Brera, Tortona, and Ventura districts. Avoid the chaos of public transport and the hassle of parking with a dedicated driver at your disposal.",
+      "p3": "For sports enthusiasts and concert-goers, our <Link>San Siro Stadium Transfer Service</Link> offers privileged access to drop-off zones, ensuring you arrive relaxed and ready for the main event. From Champions League nights to sold-out international tours, we handle the logistics so you can focus on the experience.",
+      "p4": "Beyond singular events, we specialize in complex logistics for corporate delegations, media teams, and VIP entourages. Our drivers are local experts, adept at navigating restricted traffic zones (ZTL) and finding the fastest routes through the city. Experience the pinnacle of Italian hospitality with INS Driver Service—where every journey is as memorable as the destination."
+    },
+    "faq": {
+      "title": "Event Transport FAQ",
+      "q1": "Can I book hourly disposal for Fashion Week?",
+      "a1": "Yes, our hourly disposal service is the preferred choice for MFW. We require a minimum booking of 4 hours, which provides you with a dedicated driver and vehicle for the entire duration.",
+      "q2": "Do you have access to restricted zones near San Siro?",
+      "a2": "Absolutely. As licensed NCC (Noleggio Con Conducente) operators, our vehicles are authorized to enter restricted ZTL areas and special drop-off zones designated for stadium events.",
+      "q3": "Can you wait between events?",
+      "a3": "Yes, with our hourly disposal service, your chauffeur remains on-site or in the immediate vicinity to pick you up exactly when you are ready to depart for the next venue."
+    },
+    "ctaBottom": {
+      "title": "Arrive at the Center Stage",
+      "button": "Book Event Transport Now"
+    }
+  }
+}
